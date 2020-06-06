@@ -18,7 +18,7 @@ class Doctor
   end
   
   def appointments 
-    
+    appointments.all.
     
   
 end
