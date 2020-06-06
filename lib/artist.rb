@@ -12,7 +12,7 @@ def self.all
   end
   
   def songs
-  song.all.select do |song| song == self
+  Song.all.select do |song| song == self
   end
 
 def new_song(name, genre)
