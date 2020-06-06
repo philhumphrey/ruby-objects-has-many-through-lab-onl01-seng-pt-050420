@@ -23,6 +23,6 @@ def genres
   songs.collects {|song| song.genre}
   end
 end
-end
+
 
     
