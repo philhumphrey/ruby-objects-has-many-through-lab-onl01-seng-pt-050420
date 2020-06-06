@@ -17,7 +17,7 @@ class Doctor
     appointment.doctor == self
   end
   
-  # def appointments 
+  def appointments 
     
     
   
