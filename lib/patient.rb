@@ -18,6 +18,11 @@ class Patient
   
   def new_appointment(date, doctor)
     Appointment.new(date, doctor, self)
-    
+  end
+  
+  def doctors
+    appointments.map{
 end
+
+
   
