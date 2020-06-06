@@ -13,6 +13,6 @@ class Genre
     end
     
     def songs 
-      Songs.all.collect 
+      Song.all.find 
   end
     
